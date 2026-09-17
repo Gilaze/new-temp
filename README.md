@@ -1,1 +1,5 @@
-Through this project involving a New York City Airbnb dataset, I was able to apply Pandas, Numpy, SKLearn, and Matplot to predict Airbnb rental prices in New York. It begins by loading and cleaning the data, then conducts exploratory analysis by creating visualizations like boxplots, bar charts, and a geographical map to understand price distributions and patterns. After exploring the data, the script prepares it for modeling by converting categorical features like neighbourhood into a numerical format and splitting the dataset into training and testing sets. Finally, it trains a Linear Regression model to predict Airbnb listing prices based on the features and evaluates the model's accuracy by calculating the Root Mean Squared Error (RMSE) on the test data.
+# NYC Airbnb Price Predictor
+
+**[Live demo →](https://gilaze.github.io/new-temp/)** — filter 48,895 NYC listings on an interactive map and get a price estimate from the trained model, right in your browser.
+
+This project analyzes a New York City Airbnb dataset to predict rental prices using Pandas, NumPy, scikit-learn, and Matplotlib. It cleans and explores the data, visualizes price patterns across neighborhoods and room types, and trains a linear regression model to estimate listing prices based on key listing features.
